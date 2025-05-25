@@ -1,24 +1,38 @@
 # AI Chip Quality Predictor 🧠💡
 
-This project uses **Logistic Regression** and **Polynomial Features** to classify whether a chip passes quality control based on test results.
+A machine learning project using **Logistic Regression** and **Polynomial Features** to determine whether a chip passes quality control based on test results.
 
-## 📊 Features:
+---
+
+## 📈 Overview
+
+This project implements:
 - Logistic Regression classification
-- Second-degree polynomial decision boundary
-- Decision visualization with `matplotlib`
+- A second-degree polynomial decision boundary
+- Visualizations using `matplotlib`
 
-## 📁 Files:
-- `logic_regression_chip_test.ipynb` — Main notebook with explanation and results
-- `chip_test.csv` — Dataset
+---
 
-## 🛠 Tools:
-- Python
+## 📁 Project Files
+
+- `logic_regression_chip_test.ipynb` — Main Jupyter notebook with step-by-step explanation and results
+- `chip_test.csv` — Input dataset
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
 - scikit-learn
-- matplotlib
 - pandas
+- matplotlib
 
-<br>
+---
+
+## 🖼️ Visualization
 
 <p align="center">
-  <img src="img/decision_boundary.png" width="300">
+  <img src="img/decision_boundary.png" width="400">
 </p>
+
+<p align="center"><em>Figure: Decision boundary learned by the model</em></p>
