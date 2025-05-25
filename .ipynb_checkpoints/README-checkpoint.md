@@ -16,9 +16,3 @@ This project uses **Logistic Regression** and **Polynomial Features** to classif
 - scikit-learn
 - matplotlib
 - pandas
-
-<br>
-
-<p align="center">
-  <img src="img/decision_boundary.png" width="300">
-</p>
